@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: anteproyecto_latex.aux
+The style file: elsarticle-harv-es.bst
+Database file #1: biblio.bib
+Warning--empty journal in fern2015reservas
+Warning--empty journal in krebs1989ecological
+Warning--empty journal in needham2000dragonflies
+Warning--empty journal in team2015r
+Warning--empty journal in torralba2009estado
+You've used 42 entries,
+            2821 wiz_defined-function locations,
+            885 strings with 13601 characters,
+and the built_in function-call counts, 20094 in all, are:
+= -- 2075
+> -- 922
+< -- 32
++ -- 348
+- -- 306
+* -- 1649
+:= -- 3624
+add.period$ -- 125
+call.type$ -- 42
+change.case$ -- 316
+chr.to.int$ -- 42
+cite$ -- 47
+duplicate$ -- 746
+empty$ -- 1434
+format.name$ -- 406
+if$ -- 4065
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 43
+newline$ -- 134
+num.names$ -- 168
+pop$ -- 290
+preamble$ -- 1
+purify$ -- 270
+quote$ -- 0
+skip$ -- 611
+stack$ -- 0
+substring$ -- 1293
+swap$ -- 98
+text.length$ -- 5
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 366
+warning$ -- 5
+while$ -- 179
+width$ -- 0
+write$ -- 450
+(There were 5 warnings)

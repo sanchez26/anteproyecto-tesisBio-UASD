@@ -1,0 +1,225 @@
+\documentclass[12pt,letterpaper,spanish]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{graphicx}%para insertar figuras
+\usepackage{natbib}%necesario para que las citas aparezcan según el formato APA o Elsevier-Harvard
+\usepackage[left=4cm,right=3cm,top=4cm,bottom=3cm]{geometry}
+\usepackage[all]{nowidow}%para evitar párrafos con líneas viudas o líneas huérfanas
+\title{Geomorfología y geobotánica de Monteada Nueva, Cortico y Cachote, sierra de Bahoruco, República Dominicana: superficies corrosivas, pedimentos y bosques nublados amenazados en karst de montaña media tropical}
+\date{}
+\usepackage[hang]{footmisc} %un paquete para habilitar las sangrías francesas
+\setlength\footnotemargin{10pt} %para que las notas al pie se vean en sangría francesa
+
+\begin{document}
+
+\makeatletter% Las sentencias desde este punto, hasta \makeatother, sustituyen a la sentencia \maketitle. Esta última no se puede usar en este caso porque después del títutlo aparecería un espacio en blanco dedicado al autor.
+\begin{center}%
+{\LARGE \@title \par}
+\end{center}%
+\makeatother
+
+Martínez Batlle, José Ramón\footnote{Instituto Geográfico Universitario y Escuela de Ciencias Geográficas Universidad Autónoma de Santo Domingo (joseramon@geografiafisica.org)}; Cámara Artigas, Rafael\footnote{Departamento de Geografía Física y Análisis Geográfico Regional, Universidad de Sevilla (rcamara@us.es)}; Santos Grullón, Iris\footnote{Instituto Geográfico Universitario, Universidad Autónoma de Santo Domingo (iris@geografiafisica.org)}; Herrera Hernández, Dimitris\footnote{Instituto Geográfico Universitario y Escuela de Ciencias Geográficas Universidad Autónoma de Santo Domingo (dimitris@geografiafisica.org)}; Medina Castillo, Edwin Vladimir\footnote{Instituto Geográfico Universitario, Universidad Autónoma de Santo Domingo (edwin@geografiafisica.org)}; Laurencio Girón, Gerónimo\footnote{Geográfico Universitario, Universidad Autónoma de Santo Domingo (geronimo@geografiafisica.org)}
+\begin{abstract}
+La sierra de Bahoruco (sudoeste de República Dominicana) es un complejo karst de montaña tropical que atesora un alto valor ecológico en sus ecosistemas, especialmente en el bosque nublado. La distribución de sus especies de flora, así como la de sus bosques, están ligadas a su evolución geomorfológica. Esta relación se aborda en el presente estudio, referido al área de Monteada Nueva, Cortico y Cachote, localizada en el Bahoruco oriental. Se elabora un mapa geomorfológico mediante fotointerpretación, y se propone una evolución de su relieve. Adicionalmente, se realiza un estudio geobotánico usando un método de muestreo de fanerófitos y caméfitos denominado MIFC, basado en tres transectos con las que se caracteriza cuantitativamente el bosque nublado. Finalmente, se determina la evolución reciente (1979-2013) de la cobertura boscosa usando imágenes Landsat.
+
+\noindent\emph{Palabras clave}: geomorfología, geobotánica, Bahoruco Oriental, bosque nublado, karst tropical
+
+\end{abstract}
+
+\renewcommand{\abstractname}{Abstract}
+
+\begin{abstract}
+
+Bahoruco range (SW Dominican Republic) is a complex mountainous tropical karst that holds a high ecological value in its ecosystems, especially in the cloud forest. The distribution of its flora species, and of its forests, is linked to its geomorphological evolution. Such relationship is addressed in this study, based on data from the area of Monteada Nueva, Cortico and Cachote, located at Eastern Bahoruco. We made a geomorphological map using photo interpretation, and propose an evolution of its relief. Additionally, we made a geobotanic study using a method for sampling phanerophytes and chamaephytes called MIFC, based on data from three transects for the quantitative characterization of the cloud forest. Finally, we estimated recent forest cover evolution (1979-2013) using Landsat images.
+
+\noindent\emph{Keywords}: geomorphology, geobotany, Eastern Bahoruco Range, cloud forest, tropical \emph{karst}
+\end{abstract}
+
+\section{Introducción}
+
+Este estudio trata sobre la geomorfología y la geobotánica de un sector del Bahoruco Oriental. La geomorfología abarca las localidades de Monteada Nueva y Cortico, mientras que la geobotánica incluye, además de las anteriores, a Cachote. En esta introducción se aborda el estado de la cuestión de ambas temáticas en RD, y se presenta el ámbito territorial del estudio. Posteriormente se explican los materiales y métodos empleados y, finalmente, se presentan los resultados obtenidos y las principales conclusiones.
+
+Los trabajos más recientes sobre geomorfología en RD se atribuyen a \cite{camara1997republica} y al \cite{IGME2010mapageo}; este último incluyó también una detallada cartografía geológica \citep{perez2010geologia}. También \cite{martinez2012sierra} realiza una aportación sobre geomorfología evolutiva del Bahoruco Occidental.
+
+En términos de flora y vegetación, las aportaciones de mayor relevancia para este estudio son las siguientes: \cite{guerrero1993magnolia}, \cite{seadvs1994reconocimiento}, \cite{tolentino1998inventario} y  \cite{garcia2001flora,garcia2001informe}. Y por su contenido biogeográfico, destaca el trabajo de \cite{camara2005desarrollo}, que incluye una sistematización geobotánica de escala 1:250.000 para todo el país, así como el trabajo de \cite{cano2012establishment}.
+
+\noindent
+\begin{minipage}{\linewidth}% para mantener la imagen y su pie en la misma página
+\vspace{0.3cm}
+\makebox[\linewidth]{%para centrar la imagen
+  \includegraphics[width=1\textwidth]{cortico_ambito}}
+\captionof{figure}{Ámbito territorial estudiado: Monteada Nueva, Cortico y Cachote}\label{ambito} 
+\vspace{0.3cm}
+\end{minipage}
+
+El territorio estudiado se sitúa entre los paralelos y meridianos (WGS84) 18°9'1.38''N, 18°4'22.45''N, 71°15'33.32''O y 71°10'31.90''O, abarca un área aproximada de 35 km\textsuperscript{2} del Bahoruco Oriental, y se inscribe en la región Enriquillo, provincia Barahona, SO de República Dominicana. Se trata de un ámbito donde predominan los aplanamientos y vertientes que orlan profundas incisiones. La máxima elevación es de 1,603 m (loma de Tonobán, o loma Pie de Palo en el mapa topográfico nacional), y la mínima es de 540 m (en un afluente del río Nizaíto).
+
+Según el mapa geológico escala 1:50,000 \citep{IGME2010mapageo}, en este sector predominan los materiales eocenos de la Formación Neyba, miembro inferior, que consisten en una sucesión monótona de calizas micríticas de tonos claros (beige a crema) con patina gris claro, en ocasiones rosáceas y brechoides, plegados en una estructura anticlinorial flanqueada, al SO y al NE, por sinclinales y anticlinales más apretados y fallados. La falla más destacada, es un desgarre sinestro y de carácter regional, subrayado por el arroyo Seco en dirección predominante OSO-ENE. Las fallas secundarias, más numerosas y responsables del encajamiento de la red hidrográfica, se presentan en direcciones muy variadas: SSO-NNE a SO-NE, NO-SE a ONO-ESE, EO y NS. En el mapa geomorfológico de estos autores, el área no presenta gran detalle, lo cual es atribuible a la escala empleada (1:100,000). Sin embargo, se han destacado los depósitos coluviales (ya señalados con mayor detalle en el geológico), las formas de incisión lineal, algunas dolinas en las denominadas ``lomas Las Trocha de Pey", y determinados escarpes.
+
+En cuanto a la vegetación de este sector, según la \cite{semarena2004atlas}, la superficie cubierta por formaciones boscosas naturales o en regeneración alcanzaba el 33\%, de la que el 12.6\% era ``bosque latifoliado nublado", situado fundamentalmente en los sectores cimeros de loma de Tonobán, Cortico y loma Remigio/Cachote, así como también en numerosas laderas escarpadas de esta última. La mayor parte de los bosques se encuentran en áreas protegidas, entre las que destaca el monumento natural Miguel Domingo Fuerte, que ocupa al menos la mitad del ámbito estudiado.
+Se estima que el clima del ámbito estudiado es de cálido a templado en términos de temperatura, mientras que en cuanto a precipitación es de muy húmedo a hiperhúmedo (estimado a partir de Izzo et al, 2010). En la estación de Polo, la precipitación anual promediada para el período 1960-2000, fue de poco más de 1950 mm, mientras que la temperatura promedio anual para el mismo período fue de 22°C (elaboración propia a partir de \cite{onamet2013datos}).
+
+La población máxima estimada, a partir de un análisis propio realizado con los datos de la \cite{one2012censo}, es de 1,500 personas, de las que un 63\% son hombres y el 50\% es menor de 19 años.
+
+\section{Objetivo}
+
+\begin{itemize}
+  \item Aportar nueva información sobre la geomorfología y la geobotánica de Bahoruco Oriental  
+\end{itemize}
+
+\section{Metodología}
+
+Para la elaboración del mapa geomorfológico se emplearon 3 fotografías aéreas del vuelo denominado comúnmente ``DRA', \citep{IGU1967fotos}, del sector Cortico-Cachote. Éstas se montaron en pares estereoscópicos, de manera que la visualización en tres dimensiones permitiera identificar todos los detalles posibles, algo imposible con la visión planimétrica. Los pares, una vez interpretados, fueron ortorrectificados usando el paquete informático QGIS \citep{qgis2013quantum}; la información geomorfológica generada fue convertida a formato vectorial mediante digitalización y, posteriormente, visualizada según leyenda convencional al efecto.
+
+Para el estudio geobotánico se empleó un método de muestreo de fanerófitos y caméfitos, que en acrónimo se denomina MIFC  \citep{camara2013muestreo}, el cual se basa en la técnica de transectos lineales de 50x2 m de longitud, equivalentes a 100 m\textsuperscript{2}, donde se identifican los individuos presentes con la ayuda de un botánico, sus atributos y su posición relativa en el mismo, así como los elementos mesológicos que condicionan su distribución, como son: tipo y características del suelo y/o formación superficial, caracterización del estado de humedad de las mismas y procesos hídricos, con especial incidencia de los flujos de aguas subsuperficiales. Estos elementos mesológicos determinan las sinecias, en la interpretación de \cite{huguet1929geobotanica}.
+
+Los datos colectados son transferidos a la computadora, utilizando una hoja de cálculo para almacenamiento y análisis, con la cual se producen cuatro resultados: 1) características de los atributos de las unidades de muestreo y sus elementos; 2) características estructurales de la formación vegetal; 3) índices de diversidad; 4) tratamiento estadístico multivariante de las parcelas inventariadas según análisis Cluster con las técnicas de similitud de Morisita.
+
+Gráficamente, la estructura vertical de la formación se expresa en una gráfica elaborada independientemente de los biotipos, a la cual se le denomina ``Diagrama Ecodinámico de Riqueza-Estructura-Cobertura'' (DEREC). La estructura horizontal (cobertura) se ejecuta a través de los ``Diagramas de Burbujas''.
+
+En el presente estudio se realizaron tres transectos utilizando este método, dos en Cortico y uno en Cachote, durante las segundas jornadas de campo (julio de 2013) del proyecto ``Montaña kárstica tropical, sierra de Bahoruco (República Dominicana), fitogeografía, registros paleoambientales y paleofloristicos del Pliocuaternario'' (FONDOCyT, código 2012-1A3-42).
+
+Finalmente, para el estudio de cambios de coberturas se emplearon dos escenas Landsat servidas por \cite{usgs2013earthexplorer} y \cite{um2013glcf}, una de 1979 (Landsat 3, sensor MSS) y otra de 2013 (Landsat 8, sensor OLI/TIRS). Se eligieron sitios de entrenamiento en base a los datos de campo colectados a finales de julio de 2013, con los cuales se generaron firmas espectrales, que luego fueron introducidas en QGIS para generar sendas clasificaciones supervisadas mediante el algoritmo de ``máxima probabilidad''. Finalmente, ambas escenas se combinaron para determinar el avance o retroceso de unas coberturas sobre otras.
+
+\section{Resultados}
+
+\subsection{Resultados geomorfológicos}
+
+La geomorfología de detalle realizada se circunscribe al ámbito de Cortico y su entorno, que incluye a Monteada Nueva, lomas ``Las Trochas de Pey'', loma de Tonobán y Las Tayotas. Una parte importante de la cartografía realizada comprende el sector de cabecera del río Nizaito.
+
+\noindent
+\begin{minipage}{\linewidth}% para mantener la imagen y su pie en la misma página
+\vspace{0.3cm}
+\makebox[\linewidth]{%para centrar la imagen
+  \includegraphics[width=1\textwidth]{geomorfologico_cortico}}
+\captionof{figure}{Geomorfología de Cortico y su entorno (debe ser ampliada en tamaño puesto que, de otra manera, no se dejan leer ni la leyenda ni otros textos internos}
+\vspace{0.3cm}
+\label{geomorfologico} 
+\end{minipage}
+
+Los elementos morfológicos encontrados corresponden a los propios del morfosistema kárstico, por tratarse del dominio de las calizas de la Formación Neyba. Como elemento de organización del relieve destaca, al NE, la superficie corrosiva a 1,500-1,600 m (Sk1600), conocida localmente como loma de Tonobán (también llamada ``Pie de Palo'' en el mapa topográfico nacional), la cual acoge las cabeceras de los ríos Bahoruco y Nizaíto. No hay evidencia de relieves positivos, dolinas ni otras depresiones en su cima.
+
+En el centro del mapa destaca el pedimento de Monteada Nueva-Cortico, a una altura variable de 1,300-1,400 m. Cuenta con dos depósitos: uno detrítico y otro de karstificación. El primero consiste en una brecha heterométrica con costras de sílice, y el segundo es un depósito masivo arcilloso color 10YR 5/8 con frente meteorización agudo a ondulado, generalmente sobre \emph{rundkarren}.
+
+\noindent
+\begin{minipage}{\linewidth}% para mantener la imagen y su pie en la misma página
+\vspace{0.3cm}
+\makebox[\linewidth]{%para centrar la imagen
+  \includegraphics[width=1\textwidth]{IMG_4740_02}}
+\captionof{figure}{Pedimento de Monteada Nueva-Cortico, sin cobertura boscosa (en 1967 contaba con un denso bosque nublado). La tala del bosque permite que la lluvia haga más cohesivo el depósito, favoreciendo así la escorrentía superficial, que arrastra consigo importantes clastos del lapiaz (como se ve en el fondo blanco de la incisión reciente). El proceso se retroalimenta a sí mismo, porque los clastos contribuyen aun más al taponamiento del karst, favoreciendo mayor escorrentía y arrastre, lo que a su vez destruye el depósito con mayor rapidez. En situaciones de alta pedregosidad, la regeneración se hace muy lenta, como en algunos casos del Bahoruco Occidental \citep{martinez2012sierra}. De seguir así, la regeneración del bosque no tendrá lugar}
+\vspace{0.3cm}
+\label{fotopedimento}
+\end{minipage}
+
+
+Este pedimento se divide a su vez en dos unidades: pedimento conservado y pedimento degradado. El primero, situado en las lomas Las Trochas de Pey (según el mapa topográfico), tiene altura promedio de 1,400 m y vergencia actual hacia el NE. Presenta dolinas, generalmente ``en embudo'', de diámetros decamétricos a hectométricos, ocasionalmente métricos, todas concentradas en la parte central de la unidad, siguiendo un lineamiento NO-SE, sobre todo las de orden métrico. Las cúpulas se alinean en dos ejes predominantes: N-S y NO-SE. También sobre esta unidad y en su borde meridional, se observan dos conos rocosos de tamaño pequeño (inferiores a 6 Ha). Los talwegs se dirigen mayoritariamente hacia el S, alimentando la cuenca del río Nizaíto; la mayoría no presenta flujo hídrico, aunque local y estacionalmente es posible verlos como cauces activos.
+
+El pedimento degradado, alineado en dirección NO-SE y a una altura media de 1,300 m, presenta un mayor número de dolinas en embudo, las cuales siguen también dicho eje (de hecho, la denominada ``laguna de Cortico'', se emplaza sobre una de estas depresiones). Son numerosas las de diámetro métrico, así como también las decamétricas, la mayoría con planta circular o elíptica; las de orden hectométrico son escasas y generalmente alargadas y orientadas en dirección ONO-ESE. Cuatro cúpulas destacan en el borde septentrional del pedimento, hacia el enlace con las vertientes de la loma de Tonobán. Además, varios conos rocosos orlan el pedimento, situados en las siguientes direcciones: dos hacia el N, uno hacia el NE, dos hacia el O y uno hacia el S. Este último es el más grande, y se sitúa en el enlace con la parte conservada del pedimento; en éste se han encontrado grandes clastos del lapiaz rundkarren. Al igual que en el caso anterior, una red de talwegs arranca desde este pedimento y se incide profundamente subrayando las fracturas del sistema secundario.
+Por último, y para concluir esta descripción, seis conos rocosos situados fuera de ambos pedimentos y conformando hombreras en las vertientes e interfluvios, se distribuyen hacia los bordes exteriores del mapa. Los dos primeros, al E, y a alturas de 1,400 y 1,300 m, respectivamente, forman sendas hombreras en la vertiente meridional de la loma de Tonobán. Otros dos conos, uno de más de 12 Ha (a 1,200 m) y otro de una (a 1,300 m), se desarrollan sobre la vertiente de El Revolcadero. Por el S, hacia Rancho Irene, a unos 1,100 m, se desarrolla un cono rocoso de unas 10 Ha. Finalmente, hacia el SE, entre 1,000 y 1,100 m, un pequeño cono rocoso forma una hombrera, próximo a Las Tayotas.
+
+En cuanto a la evolución geomorfológica, tanto la información geológica (Consorcio IGME-BGRM-INYPSA) como el modelo evolutivo del relieve para Bahoruco \citep{martinez2012sierra}, sugieren que el área estudiada habría tenido origen en un domo plegado de cronología finipaleógena, conformándose entonces como superficie corrosiva, probablemente karst de plataforma, y extendiéndose sobre las lomas de Tonobán probablemente hasta La Jo (N de Polo).
+
+La tectónica del Mioceno habría levantado el bloque, generando un nuevo nivel de base, permitiendo, quizá en el finimioceno, el modelado en pedimento, desde Cortico, Monteada Nueva y Cachote. Destaca la ausencia de dolinas y relieves residuales positivos en la loma de Tonobán, elementos esperables al generarse el nuevo nivel de base; probablemente, la estructura anticlinal permite la conservación de la superficie sin que haya habido lugar para retoques posteriores.
+
+La intensa actividad tectónica del Plioceno, que continúa hasta hoy, habría facturado el pedimento a través de la red de fallas secundarias, dentro de las que se habría incidido la red actual de talwegs profundos que hoy separan a Cortico y Cachote mediante extensos valles en ``V'' epigenéticos.
+
+La evidencia geomorfológica también sugiere que estas fallas pudieron actuar sobre el pedimento de Monteada Nueva-Cortico, compartimentándolo a su vez en dos bloques. Sobre uno de ellos, y alineado a una falla del sistema secundario, se desarrollaría un extenso campo de dolinas que retocaría la superficie topográfica original y conformaría así el pedimento degradado. Igualmente, la tectónica habría levantado el bloque de Cortico, dejándolo por encima del de Cachote. Aunque no se han generado los estudios biológicos pertinentes, esta compartimentación del relieve podría estar explicando determinados patrones de distribución de ecosistemas y de especies.
+
+\subsection{Resultados geobotánicos}
+
+Se ha caracterizado el bosque nublado de Bahoruco oriental con una muestra (\emph{sample}) de tres parcelas (\emph{plots}) o transectos de 50x2 m, en los lugares de Cachote (CAv\_1) y Cortico (COv\_1 y COv\_2). El método empleado fue el MIFC\citep{camara2013muestreo}, que registra los individuos de las fanerófitas y caméfitas de más de 1.5 m de altura. Las tres parcelas se hallan sobre un pedimento karstificado, con un potente depósito de alterita del karst y una importante masa de materia en descomposición (ramas y hojarasca, que alcanza los 20 a 30 cm), salvo en el caso de  COv\_2 por su proximidad a una vertiente. Destaca la estrecha fidelidad existente entre las formaciones de bosque nublado y los depósitos finos del pedimento.
+
+La parcela CAv\_1 es un manaclar (\emph{Prestoea montana} (Graham) G. Nicholson, ``palma manacla''), de ahí la alta abundancia de esta especie respecto a la de otras parcelas (14 individuos frente a 2 en las demás).
+
+\noindent
+\begin{minipage}{\linewidth}% para mantener la imagen y su pie en la misma página
+\vspace{0.3cm}
+\makebox[\linewidth]{%para centrar la imagen
+  \includegraphics[width=1\textwidth]{puntos_muestreo_flora}}
+\captionof{figure}{Localización de las parcelas COv\_1, COv\_2 y COv\_3}
+\vspace{0.3cm}
+\label{localizacionparcelas}
+\end{minipage}
+
+El conjunto de la muestra presenta un índice de Shannon de 2.86 nats, mientras que el de Simpson fue de 0.9. Esto denota una diversidad alfa importante (bosques húmedos tropicales en torno a 4 nats, pero con una dominancia importante de dos o tres especies). Efectivamente, el análisis en conjunto de la muestra, nos presenta una abundancia muy importante de \emph{Alsophila minor} (D.C. Eaton) R.M. Tryon y \emph{Ocotea patens} (Sw.) Alain, a las que acompañan otras especies que están presentes en las tres parcelas de la muestra: \emph{Psychotria berteroana} DC., \emph{Prestoea montana} (Graham) G. Nicholson, \emph{Magnolia hamorii} Howard, y \emph{Myrsine coriacea} (Sw.) R. Br. ex Roem. \& Schult. Estas especies serían características de la muestra por estar presentes en todas las parcelas y por su dominancia (cobertura), a pesar de su relativa escasa abundancia en algunos casos (número de individuos en cada parcela y en el conjunto de la muestra).
+
+Por otra parte, el cortejo de especies (la riqueza de la formación) en cada una de las parcelas, es importante: 14 en CAv\_1, 24 en COv\_1 y 22 en COv\_2, y las especies comunes entre ellas oscilan entre 9 y 13. Esto explica porqué el índice de Sorensen (índice de biodiversidad beta) no supera el valor de 0.56, que índica la existencia de una similitud, aunque muy débil, entre las parcelas.
+
+Por valor de importancia se diría que los bosques nublados de Bahoruco oriental se caracterizan por su predominio de \emph{Alsophila minor} (D.C. Eaton) R.M. Tryon (IVI: 43.81), \emph{Ocotea patens} (Sw.) Alain (42.24) y \emph{Prestoea montana} (Graham) G. Nicholson (40.89), a las que acompañan, con valores de IVI entre 37 y 34 las especies \emph{Psychotria berteroana} DC., \emph{Magnolia hamorii} Howard, \emph{Brunellia comocladifolia} Bonpl., \emph{Myrsine coriacea} (Sw.) R.Br. ex Roem. \& Schult. y \emph{Cecropia schreberiana} Miq. \& Mart. Otras especies acompañantes con un IVI destacado son, por orden de importancia de mayor a menor: \emph{Myrcia deflexa} (Poir.) DC., \emph{Weinmannia pinnata} L., \emph{Gomidesia lindeniana} O. Berg, \emph{Schefflera tremula} Krug \& Urb., \emph{Badiera fuertesii} Urb., \emph{Ocotea foeniculacea}, \emph{Beilschmiedia pendula} (Sw.) Hemsl., y \emph{Rondeletia conferta} Urb. \& Ekman.
+
+Analizando la estructura horizontal mediante el DEREC (Diagrama Ecodinámico de Riqueza Estructura y Cobertura) de cada parcela, se podría asegurar que se trata de bosques cerrados en el estrato arbóreo bajo (3 a 5 m) y medio (5 a 10 m), y algunas especies emergentes en el estrato de 10 a 20 m, con una distribución de especies homogénea en la parcela del manaclar (CAv\_1), y muy desigual en las parcelas de Cortico. En el caso de COv\_1, el patrón se vuelve festoneado, con un estrato arbustivo alto de 1.5 a 3 m muy rico, lo cual se repite también en el estrato de 5 a 10 m. Esta distribución sugiere que se trata de un bosque intervenido en regeneración. Lo contrario ocurre en COv\_2, que presenta una pirámide invertida típica de bosque menos manejado, con un desarrollo de especies más importante en el estrato arbóreo medio, lo cual podría atribuirse al bajo valor agronómico de su suelo por su posición geomorfológica (depósito detrítico, próximo a vertiente).
+
+\noindent
+\begin{minipage}{\linewidth}% para mantener la imagen y su pie en la misma página
+\vspace{0.3cm}
+\makebox[\linewidth]{%para centrar la imagen
+  \includegraphics[width=0.8\textwidth]{DEREC_COv_1_encuadre}}
+\captionof{figure}{Diagrama Ecodinámico de Riqueza Estructura y Cobertura (DEREC) para el muestreo COv\_1}
+\vspace{0.3cm}
+\label{DERECCOv1}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\linewidth}% para mantener la imagen y su pie en la misma página
+\vspace{0.3cm}
+\makebox[\linewidth]{%para centrar la imagen
+  \includegraphics[width=0.8\textwidth]{DEREC_COv_2_encuadre}}
+\captionof{figure}{Diagrama Ecodinámico de Riqueza Estructura y Cobertura (DEREC) para el muestreo COv\_2}
+\vspace{0.3cm}
+\label{DERECCOv2}
+\end{minipage}
+
+\noindent
+\begin{minipage}{\linewidth}% para mantener la imagen y su pie en la misma página
+\vspace{0.3cm}
+\makebox[\linewidth]{%para centrar la imagen
+  \includegraphics[width=0.8\textwidth]{DEREC_CAv_1_encuadre}}
+\captionof{figure}{Diagrama Ecodinámico de Riqueza Estructura y Cobertura (DEREC) para el muestreo CAv\_1}
+\vspace{0.3cm}
+\label{DERECCAv1}
+\end{minipage}
+
+También se ha estudiado el cambio diacrónico a partir de análisis digital de dos imágenes de satélite Landsat, una de 1979 y otra de 2013. La cobertura boscosa estimada para el año 1979 es de 24.5 km2 (68.5\%), concentrada al E (``Cachuey'', ``Los Charquitos'',  ``loma de Tonobán'', ``Quemadero''), donde el relieve es más irregular y de mayores pendientes. Al O y N  (``Monteada Nueva'' y ``Revolcadero''), sobre el pedimento 1.300 m y próximo a la carretera, las coberturas no boscosas ocupaban el 31.5\% de la superficie restante (11.3 km\textsuperscript{2}). Desde entonces, y hasta 2013, se eliminaron 7 km\textsuperscript{2} (19.7\%) de zona boscosa. La deforestación se extendió desde ``Monteada Nueva'' hacia ``Cortico'', y ocupó casi completamente la superficie aplanada y las laderas tendidas de las ``lomas Trocha de Pey'', quedando el bosque restringido al sector cimero; también presenta una importante intervención la cabecera del río Bahoruco. Hubo regeneración del bosque en el borde de las vertientes SO de ``Monteada Nueva'', ``Rancho Irene'' y ``La Firmeza'' de 3.4 km\textsuperscript{2} (9.6\%). Por tanto, la superficie antropizada neta es de 3.6 km\textsuperscript{2} (10.2\%). Se han conservado sin alteración 17.3 km\textsuperscript{2} (48.6\%), principalmente donde las pendientes son más inclinadas, y se mantienen sin cobertura boscosa 7.9 km\textsuperscript{2} (22.1\%), al N (``Revolcadero'' y ``Monteada Nueva''). El saldo actual es de 20.9 km\textsuperscript{2} de bosque y 14.9 km\textsuperscript{2} de otras coberturas, para unos porcentajes de 58.3\% y 41.7\%, respectivamente.
+
+\noindent
+\begin{minipage}{\linewidth}% para mantener la imagen y su pie en la misma página
+\vspace{0.3cm}
+\makebox[\linewidth]{%para centrar la imagen
+  \includegraphics[width=0.8\textwidth]{cortico_cobertura_1979-2013}}
+\captionof{figure}{Mapa de cambios de cobertura boscosa en el período 1973-2013 para el ámbito de Monteada Nueva, Cortico y Cachote}
+\vspace{0.3cm}
+\label{cambios19732003}
+\end{minipage}
+
+Este dato, lejos de ser tranquilizador, revela el alto grado de amenaza al que están sometidos los bosques nublados estudiados. Este tipo de formaciones tiene una muy baja capacidad de regeneración, por lo que las manchas que aparecen como ``recuperadas'', probablemente son pobres en términos de biodiversidad, o presentan un proceso de sucesión vegetal parecido al descrito para COv\_1. Igualmente, sería deseable comenzar el análisis tomando como punto de partida la década del 60, donde todavía el área estaba menos intervenida; esto será posible a partir de las ortofotografías generadas.
+
+\section{Conclusiones}
+
+La geomorfología de Monteada Nueva, Cortico y Cachote se compone de un pedimento dividido en 2 unidades, uno conservado y otro degradado, a cotas entre 1,300-1,400 m (lomas Las Trochas de Pey); consta a su vez de 2 depósitos, uno de karstificación y otro detrítico. Ambas unidades están modeladas en cúpulas kársticas, campos de dolinas y conos rocosos. El pedimento enlaza al N con una superficie corrosiva a 1,500-1,600 m (Sk1600, loma de Tonobán). Una red de talwegs, que arranca desde el pedimento, se incide profundamente dentro de la cuenca del río Nizaíto.
+
+La evidencia geomorfológica sugiere que el conjunto Tonobán-Cortico-Cachote habría sido un domo plegado al final del Paleógeno, modelado como superficie corrosiva, la cual se habría levantado con la tectónica miocena (finimioceno), generando un nuevo nivel de base que permitiría la conformación del pedimento Monteada Nueva-Cortico-Cachote. La intensificación tectónica del Plioceno, con amplio desarrollo de fallas regionales y secundarias, fracturaría el pedimento y favorecería la instalación de una red hidrográfica con sus característicos valles en V, lo cual le conferiría su actual aspecto compartimentado.
+
+A partir del análisis de transectos de caméfitos y fanerófitos, se concluye que en los bosques nublados de Cortico y Cachote predominan \emph{Alsophila minor} (D.C. Eaton) R.M. Tryon y \emph{Ocotea patens} (Sw.) Alain., y en el caso específico de Cachote también \emph{Prestoea montana} (Graham) G. Nicholson, acompañadas de \emph{Psychotria berteroana} DC., \emph{Magnolia hamorii} Howard, y \emph{Myrsine coriacea} (Sw.) R. Br. ex Roem. \& Schult, \emph{Brunellia comocladifolia} Bonpl. y \emph{Cecropia schreberiana} Miq. \& Mart. Los índices de la diversidad alfa para el conjunto son: Shannon con 2.86 nats y Simpson con 0.9. En cada caso, el cortejo es numeroso: 14 en CAv\_1, 24 en COv\_1 y 22 en COv\_2. Tras realizar el análisis de diversidad beta, se detectó similitud entre parcelas, aunque no muy estrecha (índice de Sorensen no supera 0.56). Sería deseable realizar más transectos para acotar mejor este valor.
+La estructura horizontal estudiada a través de los DEREC, muestra que los tres transectos son unidades de bosques cerrados en los estratos arbóreo bajo y medio (de 3 a 10 m), aunque con matices. La distribución de las especies por estratos es homogénea en CAv\_1, lo cual sugiere cierto grado de manejo en el bosque, mientras que en Cortico hay mayor riqueza en los estratos arbóreos bajo y medio, evidencia de un menor manejo del bosque; el caso de COv\_2, con pirámide invertida, es un buen ejemplo de bosque no manejado.
+
+En cuanto a cambio de cobertura boscosa, entre 1979 y 2013 se eliminó el 20\% de los bosques. Aunque hubo áreas que experimentaron regeneración, atenuándose así el balance neto perdido (10\%), los bosques regenerados no tienen el mismo valor que el bosque original. Si a esto sumamos la ocurrencia de procesos geomorfológicos que aumentan la pedregosidad, entonces la mejor estrategia sería evitar la tala del bosque conservado.
+Cabe destacar la idoneidad de las técnicas empleadas en este estudio para la obtención de los resultados esperados. Por una parte, la fotointerpretación para la elaboración del mapa geomorfológico, porque permite reconocer formas que, de otra forma, pasarían inadvertidas; por la otra, el MIFC, que ha probado ser oportuno para caracterizar los bosques nublados de la montaña media tropical, revelando sobre todo las diferencias y similitudes entre parcelas.
+
+Como conclusión final, se evidencia que el análisis geomorfológico y la interpretación evolutiva del relieve aplicados a la biogeografía, ayudan a explicar los patrones de distribución de determinadas poblaciones de flora o formaciones vegetales. El relieve en la montaña se compartimenta en presencia de una tectónica de fracturas; sin descartar la influencia de otros factores, este hecho ha de tener un papel destacado, algo que seguramente se evidencia mejor en el estudio localizado y de detalle.
+
+\section*{Agradecimientos}%el asterisco quita el número
+
+Esta investigación se desarrolla en el marco del proyecto ``Montaña kárstica tropical, sierra de Bahoruco (República Dominicana): fitogeografía, registros paleoambientales y paleoflorísticos del Plio-Cuaternario'' (código 2012-1A3-42), financiado en la convocatoria 2012 del ``Fondo Nacional de Innovación y Desarrollo Científico y Tecnológico (FONDOCYT)'', del Ministerio de Educación Superior, Ciencia y Tecnología (MESCyT) de República Dominicana.
+
+Los autores extienden un agradecimiento especial al Jardín Botánico de Santo Domingo, en especial al Lic. Teodoro Clase, por su aportación en la identificación de especies. Igualmente, se agradece el apoyo brindado por las siguientes instituciones: Servicio Geológico Nacional (SGN), Instituto Nacional de Recursos Hidráulicos (INDRHI), Oficina Nacional de Estadística (ONE) y Oficina Nacional de Meteorología (ONAMET). Finalmente, agradecemos también a las voluntarias María Cámara y África Quílez, por su apoyo en las jornadas de campo.
+
+\nocite{*}%esta sentencia hace que todas las fuentes del archivo biblio.bib sean incluidas en la lista de referencias, aun cuando no hayan sido citadas en el texto
+\bibliographystyle{elsarticle-harv-es}%este estilo fue creado basado en el provisto por Elservier tiulado "elsarticle-harv.bst", y que usa el estilo de citación de Harvard. El único cambio que se introdujo fue la traducción de la conjunción "and", de manera que cuando una referencia está firmada por dos autores aparece "Autor 1 y Autor 2". Para ello, hubo que cambiar "FUNCTION {bbl.and}{ "and"}" por "FUNCTION {bbl.and}{"y"}"
+\bibliography{biblio}
+
+\end{document}
+
